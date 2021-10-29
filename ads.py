@@ -16,7 +16,7 @@ keyword_texts = ['cheap flights', 'fast cargo']
 page_url = ''
 
 history = GA.keyword_history_idea(customer_id, _DEFAULT_LOCATION_IDS, _DEFAULT_LANGUAGE_ID, keyword_texts, page_url)
-print(history)
+
 """
 Keyword Forecast Data
 
@@ -25,12 +25,12 @@ Keyword Forecast Data
 customer_id = '6076703147'
 keywords = {
     0 : {
-        'text' : 'fast luxury flights ',
+        'text' : 'luxury flights ',
         'cpc_bid_micros' : 2000000,
         'match_type' : 'BROAD'
     },
     1 : {
-        'text' : 'cheap secure cargo',
+        'text' : 'cheap cargo',
         'cpc_bid_micros' : 1500000,
         'match_type' : 'EXACT'
     }
@@ -49,3 +49,4 @@ params = {
 }
 
 #forecast = GA.get_forecast_metrics(customer_id, params)
+print(history)
