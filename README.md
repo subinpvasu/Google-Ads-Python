@@ -1,5 +1,5 @@
 # Google-Ads-Python
-##Customized Google Ads API functions
+## Customized Google Ads API functions
 
 
 Written for my clients saved in git for others who are looking for a guy who can write scripts for them.
